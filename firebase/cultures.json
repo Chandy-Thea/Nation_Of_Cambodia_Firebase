@@ -1,0 +1,34 @@
+{
+  "apsara-dance": {
+    "order": 1,
+    "name": "Apsara Classical Dance",
+    "tag": "Sacred Ballet",
+    "image": "Classical-Apsara-Dance.jpg",
+    "alt": "Apsara Sacred Dance Performance",
+    "description": "Every precise hand gesture and fluid stance tells an ancient mythological tale. Originally performed exclusively for royal courts, this stylized art form channels the grace of heavenly nymphs carved into Angkor's temples. Dancers train for years to master the slow, controlled movements and intricate finger positions passed down through generations of royal ballet instructors, keeping a centuries-old tradition alive on stages across the kingdom today."
+  },
+  "khmer-architecture": {
+    "order": 2,
+    "name": "Sacred Khmer Architecture",
+    "tag": "Spiritual Design",
+    "image": "siemreap.png",
+    "alt": "Traditional Khmer Architecture",
+    "description": "From soaring multi-tiered tiled roofs of urban pagodas to grand geometric sandstones of ancient empires, Cambodian structural identity blends cosmic orientation with natural tropical aesthetics. Temple layouts mirror the mythical Mount Meru, with concentric galleries and rising towers designed to align with the heavens, while village pagodas adapt the same sacred principles into wooden, community-scaled sanctuaries still in daily use."
+  },
+  "silk-textiles": {
+    "order": 3,
+    "name": "Rural Silk & Textiles",
+    "tag": "Artisan Craft",
+    "image": "hol_silk.jpg",
+    "alt": "Traditional Weaving and Slow Living",
+    "description": "Passed down from mother to daughter for generations, the complicated tie-dye pattern technique (Hol) creates vibrant textiles on traditional wooden looms deep in Cambodia's countryside. Each length of silk can take weeks to dye and weave by hand, with motifs and colors that once signaled a family's region and status, keeping a fragile artisan economy and its stories woven into everyday cloth."
+  },
+  "indigenous-customs": {
+    "order": 4,
+    "name": "Indigenous Tribal Customs",
+    "tag": "Ecotourism Lore",
+    "image": "bunong_people.jpg",
+    "alt": "Indigenous Heritage and Eco Landscapes",
+    "description": "In remote highland sanctuaries, community ties to the land are preserved through animist beliefs, sacred forests, and rich storytelling frameworks that outlast modern changes. Highland communities such as the Bunong maintain traditional farming cycles, spirit forest protections, and oral histories that continue to shape daily life across Cambodia's northeastern provinces."
+  }
+}

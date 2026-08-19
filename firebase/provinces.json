@@ -1,0 +1,82 @@
+{
+  "siem-reap": {
+    "order": 1,
+    "name": "Siem Reap",
+    "tag": "Temple & Culture",
+    "image": "siemreap.png",
+    "alt": "Bayon Temple, Siem Reap",
+    "description": "Siem Reap is the gateway to Cambodia's ancient heart, home to the sprawling Angkor Archaeological Park and its hundreds of sandstone temples. Beyond the ruins, the city itself has grown into a lively hub of night markets, riverside cafes, and traditional Apsara dance performances, making it the natural starting point for any first trip to the Kingdom of Wonder."
+  },
+  "phnom-penh": {
+    "order": 2,
+    "name": "Phnom Penh",
+    "tag": "Urban Heritage",
+    "image": "phnom-penh-city.jpg",
+    "alt": "Phnom Penh cityscape along the riverfront",
+    "description": "Cambodia's capital sits at the meeting point of the Mekong and Tonle Sap rivers, blending colonial-era boulevards with the gilded rooftops of the Royal Palace and Silver Pagoda. Phnom Penh's riverside promenade, bustling central markets, and sobering historical sites offer a layered introduction to the country's past and its fast-modernizing present."
+  },
+  "kampot": {
+    "order": 3,
+    "name": "Kampot",
+    "tag": "Riverside Relaxation",
+    "image": "kampot.jpg",
+    "alt": "Kampot riverside at sunset",
+    "description": "Kampot is Cambodia's slow-living capital: a quiet riverside town of faded French shophouses, salt flats, and the world-famous Kampot pepper plantations that surround it. Rent a bicycle to explore the countryside by day, then watch the sun set over the river from one of the town's laid-back waterfront cafes."
+  },
+  "preah-sihanouk": {
+    "order": 4,
+    "name": "Krong Preah Sihanouk",
+    "tag": "Beach Paradise",
+    "image": "Preah-Sihanouk.jpg",
+    "alt": "Beach in Krong Preah Sihanouk",
+    "description": "Krong Preah Sihanouk is Cambodia's coastal playground, the jumping-off point for the white-sand beaches and turquoise waters of the nearby islands. Whether you're after a lively beach town atmosphere or a boat ride out to a quiet bungalow-lined shore, this province is where the Kingdom of Wonder meets the sea."
+  },
+  "battambang": {
+    "order": 5,
+    "name": "Battambang",
+    "tag": "Heritage & Art",
+    "image": "battambang.jpg",
+    "alt": "Battambang town view",
+    "description": "Cambodia's second-largest city is best known for its well-preserved French colonial architecture, a thriving contemporary art and circus scene, and the countryside surrounding it, dotted with hilltop pagodas and the famous bamboo train. Battambang offers a quieter, more local pace than Siem Reap while still rewarding curious travelers with plenty to discover."
+  },
+  "kep": {
+    "order": 6,
+    "name": "Kep",
+    "tag": "Seafood & Coastal",
+    "image": "kep.jpg",
+    "alt": "Kep coastal landscape",
+    "description": "Once the seaside retreat of Cambodia's elite, Kep today is a small, easygoing coastal town famous for its crab market, where the day's catch is served fresh at open-air stalls along the shore. Crumbling colonial villas, quiet nature trails on Kep National Park's forested hill, and a laid-back fishing-village atmosphere make it a favorite short escape from the capital."
+  },
+  "mondulkiri": {
+    "order": 7,
+    "name": "Mondulkiri",
+    "tag": "Highland Wildlife",
+    "image": "mondulkiri.jpg",
+    "alt": "Mondulkiri highlands",
+    "description": "Rolling hills, pine forests, and waterfalls set Mondulkiri apart from the rest of Cambodia's landscape. This remote highland province is best known for its ethical elephant sanctuaries, where visitors can observe rescued elephants roaming freely, as well as its cooler climate and indigenous Bunong communities who have called these highlands home for generations."
+  },
+  "ratanakiri": {
+    "order": 8,
+    "name": "Ratanakiri",
+    "tag": "Ecotourism & Nature",
+    "image": "Ratanakiri.jpg",
+    "alt": "Yeak Laom Lake, Ratanakiri",
+    "description": "Tucked into Cambodia's remote northeast, Ratanakiri is a province of volcanic crater lakes, dense jungle, and cascading waterfalls. The still, clear waters of Yeak Laom Lake and the deep-rooted traditions of the province's indigenous highland communities make it one of the best places in the country for travelers seeking untouched nature and living cultural heritage."
+  },
+  "kampong-thom": {
+    "order": 9,
+    "name": "Kampong Thom",
+    "tag": "Pre-Angkorian History",
+    "image": "kampong_thom.jpg",
+    "alt": "Sambor Prei Kuk ruins",
+    "description": "Long before Angkor rose to prominence, the temples of Sambor Prei Kuk stood as the capital of the Chenla Empire. Scattered through a shaded forest and largely free of crowds, Kampong Thom's brick sanctuaries offer a glimpse into Cambodia's pre-Angkorian roots for travelers willing to venture off the well-worn temple trail."
+  },
+  "kampong-cham": {
+    "order": 10,
+    "name": "Kampong Cham",
+    "tag": "Rural Mekong",
+    "image": "kampong_cham.jpg",
+    "alt": "Mekong River island near Kampong Cham",
+    "description": "Straddling the banks of the Mekong, Kampong Cham is a gateway to Cambodia's rural heartland. Bamboo bridges connect the mainland to river islands where rice paddies and quiet villages stretch to the horizon, offering an unhurried look at everyday life along the Mekong away from the country's main tourist circuit."
+  }
+}

@@ -1,0 +1,25 @@
+/* =========================================================
+   Ora Khmer — Home page (index.html) styles
+   ========================================================= */
+
+/* Image hero section */
+.hero-section {
+    position: relative;
+    height: 90vh; /* Takes up 90% of the screen height */
+    min-height: 450px;
+    background-image: url('../images/hero_section_img.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Dark overlay */
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.35); /* Adjust to make it darker or lighter */
+    z-index: 0;
+}

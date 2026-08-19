@@ -1,0 +1,136 @@
+/* =========================================================
+   Ora Khmer — Global Stylesheet
+   Shared across every page: typography, layout helpers,
+   navbar/footer, and the reusable "temple-card" component.
+   ========================================================= */
+
+/* ---- Typography & base ---- */
+body {
+    font-family: 'Ubuntu', sans-serif !important;
+}
+
+/* ---- Layout helpers ---- */
+.max-width-500 {
+    max-width: 500px;
+}
+
+.max-width-600 {
+    max-width: 600px;
+}
+
+.z-1 {
+    z-index: 1;
+}
+
+/* ---- Shared page header text (destinations / culture pages) ---- */
+.page-title {
+    font-size: 2.75rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+.page-subtitle {
+    font-size: 1.1rem;
+    color: #595959;
+    max-width: 700px;
+}
+
+/* ---- Reusable "temple card" component ----
+   Used on the homepage, Destinations, and Temples pages.
+   Add the modifier classes below to control image ratio:
+     .temple-img-wrapper.aspect-square  -> 1:1  (default)
+     .temple-img-wrapper.aspect-wide    -> 4:3
+*/
+.temple-card {
+    background: #ffffff;
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.temple-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* Cards used as interactive buttons (e.g. homepage province cards) */
+.temple-card[onclick],
+.temple-card.is-clickable {
+    cursor: pointer;
+}
+
+.temple-img-wrapper {
+    width: 100%;
+    aspect-ratio: 1 / 1; /* default: perfectly square grid */
+    overflow: hidden;
+    position: relative;
+    background-color: #f0f0f0;
+}
+
+.temple-img-wrapper.aspect-wide {
+    aspect-ratio: 4 / 3;
+}
+
+.temple-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.temple-type {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: #6c757d;
+    font-weight: 500;
+}
+
+.temple-name {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 6px 0;
+    color: #1a1a1a;
+}
+
+.temple-quote {
+    font-style: italic;
+    font-size: 0.85rem;
+    color: #495057;
+    border-left: 2px solid #dee2e6;
+    padding-left: 8px;
+    margin-top: auto; /* aligns quotes neatly to the card floor */
+}
+
+.temple-rating {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #ffc107;
+}
+
+/* ---- Shared pill button ---- */
+.btn-discover {
+    border: 1px solid #717171;
+    color: #1a1a1a;
+    font-weight: 500;
+    font-size: 0.85rem;
+    padding: 8px 24px;
+    border-radius: 20px;
+    background-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    margin-top: auto; /* pushes the button to the bottom of the card */
+    align-self: flex-start;
+}
+
+.btn-discover:hover {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border-color: #1a1a1a;
+}

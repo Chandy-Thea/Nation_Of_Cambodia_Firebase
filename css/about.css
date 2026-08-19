@@ -1,0 +1,55 @@
+/* =========================================================
+   Ora Khmer — About Us page (about_us.html) styles
+   ========================================================= */
+
+body {
+    background-color: #ffffff;
+    color: #1a1a1a;
+}
+
+/* Hero Header Style */
+.about-header {
+    padding: 80px 0 50px 0;
+    background: linear-gradient(180deg, #f8f9fa 0%, #ffffff 100%);
+}
+
+.about-title {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    color: #212529;
+}
+
+/* Unified visual card styling */
+.preview-card {
+    border: none;
+    background: #ffffff;
+    transition: transform 0.3s ease;
+}
+
+.preview-img-wrapper {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.preview-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.preview-card:hover .preview-img-wrapper img {
+    transform: scale(1.05);
+}
+
+/* Section divider accent */
+.accent-line {
+    width: 60px;
+    height: 3px;
+    background-color: #212529;
+    margin: 20px 0;
+}
